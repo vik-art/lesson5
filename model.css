@@ -1,6 +1,5 @@
 div#container {
-background-color: #3399cc;
-width: 600px;
+width: 800px;
 height: 100%;
 display: block;
 font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
@@ -12,7 +11,7 @@ body {
     background-color: #2B81AC;}
 h2 {
     color: white;
-    text-align: center;
+
 }
 ul {    
     padding: 0px;
