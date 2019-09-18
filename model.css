@@ -1,6 +1,5 @@
 div#container {
-width: 800px;
-height: 100%;
+width: 985px;
 display: block;
 font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 color: white;
@@ -11,22 +10,25 @@ body {
     background-color: #2B81AC;}
 h2 {
     color: white;
-
 }
 ul {    
     padding: 0px;
     margin: 0px;
     font-size: 0px;
     outline: 3px solid white;
-    text-align: center;
 }
 ul>li {
     list-style-type: none;
-    font-family: sans-serif;
-    height: 100px;    
+    font-family: sans-serif;   
     display: inline-block;
     font-size: 24px;
     outline: 2px solid white;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.6;
+}
+li:hover {
+    opacity: 1;
 }
 li.item1 {
     background-color: #3399cc;
@@ -71,4 +73,6 @@ li.item10 {
 li.item11 {
     background-color: #666699;
     width: 100%;
+}
+footer {margin: 20px;
 }
