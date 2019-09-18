@@ -1,6 +1,6 @@
 div#container {
-width: 985px;
-display: block;
+width: 75%;
+height: 100%;
 font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 color: white;
 margin-left: auto;
@@ -8,9 +8,6 @@ margin-right: auto;
 }
 body {
     background-color: #2B81AC;}
-h2 {
-    color: white;
-}
 ul {    
     padding: 0px;
     margin: 0px;
@@ -25,10 +22,6 @@ ul>li {
     outline: 2px solid white;
     justify-content: center;
     text-align: center;
-    opacity: 0.6;
-}
-li:hover {
-    opacity: 1;
 }
 li.item1 {
     background-color: #3399cc;
@@ -75,4 +68,6 @@ li.item11 {
     width: 100%;
 }
 footer {margin: 20px;
+}
+ul:hover li:not(:hover) {opacity: 0.3;
 }
