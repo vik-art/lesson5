@@ -73,7 +73,9 @@ li#item11 {
 footer {
   margin: 20px;
 }
+ul:hover {
+  cursor: pointer;
+}
 ul:hover li:not(:hover) {
   opacity: 0.3;
-  cursor: pointer;
 }
